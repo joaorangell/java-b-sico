@@ -9,7 +9,7 @@ public class usuario {
         System.out.println("Qual o volume? " + smartTv.volume);
         */
 
-        /*Teste de parâmetros de ligar/desligar= ok
+        /*Teste de ligar/desligar= ok
 
         smartTv.ligar();
         System.out.println("Tv ligada? " + smartTv.ligada);
@@ -18,9 +18,13 @@ public class usuario {
         System.out.println("Tv ligada? " + smartTv.ligada);
         */
 
+        /* Teste de aumentar/ diminuir canal= ok
         smartTv.aumentarVol();
         System.out.println("Qual o volume?" + smartTv.volume);
-        
+
+        smartTv.diminuirvol();
+        System.out.println("Qual o volume?" + smartTv.volume);
+        */
 
 
     }
