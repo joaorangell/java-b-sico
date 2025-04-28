@@ -6,7 +6,7 @@ public class smartTv {
     public void ligar(){
         ligada= true;
     }
-    public void desligada(){
+    public void desligar(){
         ligada= false;
     }
 
