@@ -12,10 +12,10 @@ public class smartTv {
     }
 
     //func volume aumentar/ diminuir
-    public void aumentarVol{
+    public void aumentarVol(){
         volume++;
     }
-    public void diminuirvol{
+    public void diminuirvol(){
         volume--;
     }
 
