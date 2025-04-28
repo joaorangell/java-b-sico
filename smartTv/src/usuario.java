@@ -1,5 +1,6 @@
 public class usuario {
     public static void main(String[] args) throws Exception {
+        
         smartTv smartTv = new smartTv();
 
         /* Teste incial= OK
