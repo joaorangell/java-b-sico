@@ -15,9 +15,20 @@ public class smartTv {
     public void aumentarVol(){
         volume++;
     }
-    public void diminuirvol(){
+    public void diminuirVol(){
         volume--;
     }
 
+    //func aumentar ou diminuir canal
+    public void aumentarCanal(){
+        canal++;
+    }
+    public void diminuirCanal(){
+        canal--;
+    }
 
+    public void mudarCanal(int novoCanal){
+        canal= novoCanal;
+    }
 }
+

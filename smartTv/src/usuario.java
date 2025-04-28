@@ -22,9 +22,18 @@ public class usuario {
         smartTv.aumentarVol();
         System.out.println("Qual o volume?" + smartTv.volume);
 
-        smartTv.diminuirvol();
+        smartTv.diminuirVol();
         System.out.println("Qual o volume?" + smartTv.volume);
         */
+
+        smartTv.aumentarCanal();
+        System.out.println("Qual o canal?" + smartTv.canal);
+
+        smartTv.diminuirCanal();
+        System.out.println("Qual o canal?" + smartTv.canal);
+
+        smartTv.mudarCanal(14);
+        System.out.println("Qual o canal? "+ smartTv.canal);
 
 
     }
