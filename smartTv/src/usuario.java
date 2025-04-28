@@ -1,6 +1,6 @@
 public class usuario {
     public static void main(String[] args) throws Exception {
-        
+
         smartTv smartTv = new smartTv();
 
         /* Teste incial= OK
@@ -19,7 +19,7 @@ public class usuario {
         System.out.println("Tv ligada? " + smartTv.ligada);
         */
 
-        /* Teste de aumentar/ diminuir canal= ok
+        /* Teste de aumentar/ diminuir volume= ok
         smartTv.aumentarVol();
         System.out.println("Qual o volume?" + smartTv.volume);
 
@@ -27,6 +27,7 @@ public class usuario {
         System.out.println("Qual o volume?" + smartTv.volume);
         */
 
+        //teste de aumentar/ desligar/ escolher canal
         smartTv.aumentarCanal();
         System.out.println("Qual o canal?" + smartTv.canal);
 
