@@ -4,7 +4,7 @@ public class usuario {
 
         System.out.println("Tv ligada? " + smartTv.ligada);
         System.out.println("Qual canal? " + smartTv.canal);
-        System.out.println("Qual o volume? "+ smartTv.volume);
+        System.out.println("Qual o volume? " + smartTv.volume);
 
 
 
